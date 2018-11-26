@@ -1,2 +1,6 @@
 # Python byte code
 *.pyc
+.idea/workspace.xml
+.idea/modules.xml
+.idea/Quadcopter_simulator.iml
+.idea/vcs.xml

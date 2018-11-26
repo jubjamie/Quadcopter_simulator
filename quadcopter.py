@@ -16,7 +16,7 @@ class Propeller():
     def set_speed(self,speed):
         self.speed = speed
         # From http://www.electricrcaircraftguy.com/2013/09/propeller-static-dynamic-thrust-equation.html
-        self.thrust = 4.392e-8 * self.speed * math.pow(self.dia,3.5)/(math.sqrt(self.pitch))
+        self.thrust = 5.392e-8 * self.speed * math.pow(self.dia,3.5)/(math.sqrt(self.pitch))
         self.thrust = self.thrust*(4.23e-4 * self.speed * self.pitch)
         if self.thrust_unit == 'Kg':
             self.thrust = self.thrust*0.101972
